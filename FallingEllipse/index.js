@@ -1,7 +1,7 @@
 let bubles = [];
 
 function setup(){
-    createCanvas(displayWidth, displayHeight/1.53);
+    createCanvas(displayWidth, displayHeight/1.1);
 }
 
 function draw() {
@@ -32,9 +32,9 @@ function mousePressed(){
             this.speed = this.speed + this.gravity;
             this.y = this.y + this.speed;
 
-            if(this.y >= displayHeight/1.53){
+            if(this.y >= displayHeight/1.1){
                 this.speed = this.speed * (-this.bounce);
-                this.y = displayHeight/1.53;
+                this.y = displayHeight/1.1;
             }
 
             else if(this.y <= this.positionY){
