@@ -1,7 +1,7 @@
 let bubles = [];
 
 function setup(){
-    createCanvas(displayWidth, displayHeight);
+    createCanvas(displayWidth, displayHeight/1.53);
 }
 
 function draw() {
